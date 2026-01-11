@@ -34,18 +34,21 @@ PromptForge is a web-based platform designed to streamline the lifecycle of LLM 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Gustavo-Barcellos/promptforge.git
    cd promptforge
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Set up environment variables:
    Create a `.env.local` file in the root directory and add the following:
+
    ```env
    DATABASE_URL=postgresql://user:password@localhost:5432/promptforge
    NEXTAUTH_SECRET=your_nextauth_secret
@@ -58,11 +61,13 @@ PromptForge is a web-based platform designed to streamline the lifecycle of LLM 
    ```
 
 4. Set up the database:
+
    ```bash
    npx prisma migrate dev --name init
    ```
 
 5. Run the development server:
+
    ```bash
    npm run dev
    ```

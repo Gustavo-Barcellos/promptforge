@@ -46,3 +46,4 @@ turbo/
 
 # Vercel and other platform files
 .vercel
+/app/generated/prisma
